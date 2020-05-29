@@ -55,7 +55,9 @@ let appReducer = Reducer<AppState, AppAction, AppEnvironment>.combine(
     }
 )
 .debug()
-//    Reducer<AppState, AppAction, AppEnvironment> { state, action, environment in
+
+
+//    let appReducer: Reducer<AppState, AppAction, AppEnvironment> = { state, action, environment in
 //    switch action {
 //    case .todoCheckboxTapped(index: let index):
 //        state.todos[index].isComplete.toggle()

@@ -17,9 +17,6 @@
 		9F67C22D2480CF7D00C4347D /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 9F67C22C2480CF7D00C4347D /* ComposableArchitecture */; };
 		9F67C22F2480DD6700C4347D /* TodosViewPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F67C22E2480DD6700C4347D /* TodosViewPart2.swift */; };
 		9F67C2372480DE0400C4347D /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F67C2362480DE0400C4347D /* Todo.swift */; };
-		9F67C2392480DE2100C4347D /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F67C2382480DE2100C4347D /* AppState.swift */; };
-		9F67C23B2480DE2F00C4347D /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F67C23A2480DE2F00C4347D /* AppAction.swift */; };
-		9F67C23D2480DE4E00C4347D /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F67C23C2480DE4E00C4347D /* AppEnvironment.swift */; };
 		9F67C2402480DF1500C4347D /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F67C23F2480DF1500C4347D /* AppReducer.swift */; };
 		9F67C2422481020000C4347D /* TodosViewPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F67C2412481020000C4347D /* TodosViewPart3.swift */; };
 /* End PBXBuildFile section */
@@ -36,9 +33,6 @@
 		9F67C2292480CE0200C4347D /* TodosViewPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosViewPart1.swift; sourceTree = "<group>"; };
 		9F67C22E2480DD6700C4347D /* TodosViewPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosViewPart2.swift; sourceTree = "<group>"; };
 		9F67C2362480DE0400C4347D /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
-		9F67C2382480DE2100C4347D /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
-		9F67C23A2480DE2F00C4347D /* AppAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAction.swift; sourceTree = "<group>"; };
-		9F67C23C2480DE4E00C4347D /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
 		9F67C23F2480DF1500C4347D /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
 		9F67C2412481020000C4347D /* TodosViewPart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosViewPart3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,35 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				9F67C23E2480DEF400C4347D /* Reducer */,
-				9F67C2332480DDD800C4347D /* Environment */,
-				9F67C2322480DDD200C4347D /* Action */,
-				9F67C2312480DDCA00C4347D /* State */,
 			);
 			path = ComposabaleArchitecture;
-			sourceTree = "<group>";
-		};
-		9F67C2312480DDCA00C4347D /* State */ = {
-			isa = PBXGroup;
-			children = (
-				9F67C2382480DE2100C4347D /* AppState.swift */,
-			);
-			path = State;
-			sourceTree = "<group>";
-		};
-		9F67C2322480DDD200C4347D /* Action */ = {
-			isa = PBXGroup;
-			children = (
-				9F67C23A2480DE2F00C4347D /* AppAction.swift */,
-			);
-			path = Action;
-			sourceTree = "<group>";
-		};
-		9F67C2332480DDD800C4347D /* Environment */ = {
-			isa = PBXGroup;
-			children = (
-				9F67C23C2480DE4E00C4347D /* AppEnvironment.swift */,
-			);
-			path = Environment;
 			sourceTree = "<group>";
 		};
 		9F67C2352480DDF600C4347D /* Model */ = {
@@ -244,15 +211,12 @@
 			files = (
 				9F67C2142480CD7300C4347D /* AppDelegate.swift in Sources */,
 				9F67C2422481020000C4347D /* TodosViewPart3.swift in Sources */,
-				9F67C23B2480DE2F00C4347D /* AppAction.swift in Sources */,
 				9F67C2372480DE0400C4347D /* Todo.swift in Sources */,
-				9F67C2392480DE2100C4347D /* AppState.swift in Sources */,
 				9F67C2402480DF1500C4347D /* AppReducer.swift in Sources */,
 				9F67C2162480CD7300C4347D /* SceneDelegate.swift in Sources */,
 				9F67C22A2480CE0200C4347D /* TodosViewPart1.swift in Sources */,
 				9F67C22F2480DD6700C4347D /* TodosViewPart2.swift in Sources */,
 				9F67C2182480CD7300C4347D /* ContentView.swift in Sources */,
-				9F67C23D2480DE4E00C4347D /* AppEnvironment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
