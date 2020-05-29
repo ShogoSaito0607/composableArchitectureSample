@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,15 @@
 		9F67C21A2480CD7700C4347D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F67C2192480CD7700C4347D /* Assets.xcassets */; };
 		9F67C21D2480CD7700C4347D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F67C21C2480CD7700C4347D /* Preview Assets.xcassets */; };
 		9F67C2202480CD7700C4347D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F67C21E2480CD7700C4347D /* LaunchScreen.storyboard */; };
+		9F67C22A2480CE0200C4347D /* TodosViewPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F67C2292480CE0200C4347D /* TodosViewPart1.swift */; };
+		9F67C22D2480CF7D00C4347D /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 9F67C22C2480CF7D00C4347D /* ComposableArchitecture */; };
+		9F67C22F2480DD6700C4347D /* TodosViewPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F67C22E2480DD6700C4347D /* TodosViewPart2.swift */; };
+		9F67C2372480DE0400C4347D /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F67C2362480DE0400C4347D /* Todo.swift */; };
+		9F67C2392480DE2100C4347D /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F67C2382480DE2100C4347D /* AppState.swift */; };
+		9F67C23B2480DE2F00C4347D /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F67C23A2480DE2F00C4347D /* AppAction.swift */; };
+		9F67C23D2480DE4E00C4347D /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F67C23C2480DE4E00C4347D /* AppEnvironment.swift */; };
+		9F67C2402480DF1500C4347D /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F67C23F2480DF1500C4347D /* AppReducer.swift */; };
+		9F67C2422481020000C4347D /* TodosViewPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F67C2412481020000C4347D /* TodosViewPart3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,14 @@
 		9F67C21C2480CD7700C4347D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9F67C21F2480CD7700C4347D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F67C2212480CD7700C4347D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F67C2292480CE0200C4347D /* TodosViewPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosViewPart1.swift; sourceTree = "<group>"; };
+		9F67C22E2480DD6700C4347D /* TodosViewPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosViewPart2.swift; sourceTree = "<group>"; };
+		9F67C2362480DE0400C4347D /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		9F67C2382480DE2100C4347D /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		9F67C23A2480DE2F00C4347D /* AppAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAction.swift; sourceTree = "<group>"; };
+		9F67C23C2480DE4E00C4347D /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		9F67C23F2480DF1500C4347D /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		9F67C2412481020000C4347D /* TodosViewPart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosViewPart3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F67C22D2480CF7D00C4347D /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +60,7 @@
 			children = (
 				9F67C2122480CD7300C4347D /* composableArchitectSample */,
 				9F67C2112480CD7300C4347D /* Products */,
+				9F67C22B2480CF7D00C4347D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +75,9 @@
 		9F67C2122480CD7300C4347D /* composableArchitectSample */ = {
 			isa = PBXGroup;
 			children = (
+				9F67C2352480DDF600C4347D /* Model */,
+				9F67C2302480DDBF00C4347D /* ComposabaleArchitecture */,
+				9F67C2282480CDE900C4347D /* View */,
 				9F67C2132480CD7300C4347D /* AppDelegate.swift */,
 				9F67C2152480CD7300C4347D /* SceneDelegate.swift */,
 				9F67C2172480CD7300C4347D /* ContentView.swift */,
@@ -75,6 +97,74 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9F67C2282480CDE900C4347D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F67C2292480CE0200C4347D /* TodosViewPart1.swift */,
+				9F67C22E2480DD6700C4347D /* TodosViewPart2.swift */,
+				9F67C2412481020000C4347D /* TodosViewPart3.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F67C22B2480CF7D00C4347D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F67C2302480DDBF00C4347D /* ComposabaleArchitecture */ = {
+			isa = PBXGroup;
+			children = (
+				9F67C23E2480DEF400C4347D /* Reducer */,
+				9F67C2332480DDD800C4347D /* Environment */,
+				9F67C2322480DDD200C4347D /* Action */,
+				9F67C2312480DDCA00C4347D /* State */,
+			);
+			path = ComposabaleArchitecture;
+			sourceTree = "<group>";
+		};
+		9F67C2312480DDCA00C4347D /* State */ = {
+			isa = PBXGroup;
+			children = (
+				9F67C2382480DE2100C4347D /* AppState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		9F67C2322480DDD200C4347D /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				9F67C23A2480DE2F00C4347D /* AppAction.swift */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		9F67C2332480DDD800C4347D /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				9F67C23C2480DE4E00C4347D /* AppEnvironment.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		9F67C2352480DDF600C4347D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F67C2362480DE0400C4347D /* Todo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F67C23E2480DEF400C4347D /* Reducer */ = {
+			isa = PBXGroup;
+			children = (
+				9F67C23F2480DF1500C4347D /* AppReducer.swift */,
+			);
+			path = Reducer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,6 +181,9 @@
 			dependencies = (
 			);
 			name = composableArchitectSample;
+			packageProductDependencies = (
+				9F67C22C2480CF7D00C4347D /* ComposableArchitecture */,
+			);
 			productName = composableArchitectSample;
 			productReference = 9F67C2102480CD7300C4347D /* composableArchitectSample.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +212,9 @@
 				Base,
 			);
 			mainGroup = 9F67C2072480CD7300C4347D;
+			packageReferences = (
+				9F67C2272480CDA800C4347D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 9F67C2112480CD7300C4347D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -147,8 +243,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F67C2142480CD7300C4347D /* AppDelegate.swift in Sources */,
+				9F67C2422481020000C4347D /* TodosViewPart3.swift in Sources */,
+				9F67C23B2480DE2F00C4347D /* AppAction.swift in Sources */,
+				9F67C2372480DE0400C4347D /* Todo.swift in Sources */,
+				9F67C2392480DE2100C4347D /* AppState.swift in Sources */,
+				9F67C2402480DF1500C4347D /* AppReducer.swift in Sources */,
 				9F67C2162480CD7300C4347D /* SceneDelegate.swift in Sources */,
+				9F67C22A2480CE0200C4347D /* TodosViewPart1.swift in Sources */,
+				9F67C22F2480DD6700C4347D /* TodosViewPart2.swift in Sources */,
 				9F67C2182480CD7300C4347D /* ContentView.swift in Sources */,
+				9F67C23D2480DE4E00C4347D /* AppEnvironment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +446,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F67C2272480CDA800C4347D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F67C22C2480CF7D00C4347D /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F67C2272480CDA800C4347D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9F67C2082480CD7300C4347D /* Project object */;
 }
